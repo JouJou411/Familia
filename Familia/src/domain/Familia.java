@@ -56,7 +56,7 @@ public class Familia {
         System.out.println("---------------Familia de tu mamá------------");
         System.out.println("Num herman@         Nombre hij@");
         for (int i = 0; i < m; i++) {
-            System.out.print("  " + Integer.toHexString(i + 1) + "  ");
+            System.out.print("      " + Integer.toString(i + 1) + "     ");
             for (int j = 0; j < matriz.lengthZ(0, i); j++) {
                 String nombre = (String) matriz.regresarObjeto(0, i, j);
                 if (nombre != null) {
@@ -69,7 +69,7 @@ public class Familia {
         System.out.println("---------------Familia de tu papá------------");
         System.out.println("Num herman@         Nombre hij@");
         for (int i = 0; i < p; i++) {
-            System.out.print("  " + Integer.toHexString(i + 1) + "  ");
+            System.out.print("      " + Integer.toString(i + 1) + "     ");
             for (int j = 0; j < matriz.lengthZ(1, i); j++) {
                 String nombre = (String) matriz.regresarObjeto(1, i, j);
                 if (nombre != null) {
